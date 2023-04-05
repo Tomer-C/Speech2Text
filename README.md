@@ -37,6 +37,8 @@ The application provides the following features:
 - Calculate the Word Error Rate (WER) between the predicted and actual transcriptions.
 - Revert to the default test data folder.
 
+If necessary, you can watch a [demo video](https://photos.app.goo.gl/x7U4pi4uTHUZ5qpXA) of the GUI in action.
+
 The following Python libraries are used in the GUI:
 - numpy
 - tensorflow
