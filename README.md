@@ -37,7 +37,9 @@ The application provides the following features:
 
 ## Deep learning model
 The application uses a deep learning model implemented with TensorFlow and Keras to transcribe speech to text. The model, which was based on the DeepSpeech2 model, was trained on a large dataset of .wav files.
+
 The model was developed and trained in a Google Collab notebook.
+
 After training, the model was uploaded to a TensorFlow server and is served via a REST API.
 
 ## Credits and Acknowledgements
