@@ -1,7 +1,7 @@
 # Speech2Text
 Speech2Text is a Python application that allows users to transcribe speech to text. The application is built using the LJ Speech Dataset and a speech-to-text model trained on Google Colab. The graphical user interface (GUI) was written in Python and developed using Visual Studio Code.
 
-All the source code for this project can be found on [GitHub](https://github.com/Tomer-C/Speech2Text)
+All the source code for this project can be found in a single [repository](https://github.com/Tomer-C/Speech2Text) on GitHub.
 
 ## Installation
 Before installing Speech2Text, please ensure that you have Python 3 installed on your computer. You can download the latest version of Python 3 from the [official website](https://www.python.org/downloads/). Make sure python and pip are in your Windows PATH.
@@ -62,7 +62,7 @@ To view the Colab Notebook used to develop and train the deep learning model, pl
 - Go to https://colab.research.google.com/
 - Click on the "GitHub" tab
 - Search for the repository containing the Speech2Text Colab Notebook (https://github.com/Tomer-C/Speech2Text)
-- Select the Speech2Text_Project.ipynb file to open the Colab Notebook
+- Select the Speech2TextProject.ipynb file to open the Colab Notebook
 - Follow the instructions in the notebook to run the code and train the model 
   (Set the `train` flag to **True** to indicate that we are training the model / Set the `train` flag to **False** to indicate that we are not training the model).
 
