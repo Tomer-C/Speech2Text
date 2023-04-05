@@ -2,7 +2,7 @@
 Speech2Text is a Python application that allows users to transcribe speech to text. The application is built using the LJ Speech Dataset and a speech-to-text model trained on Google Colab. The graphical user interface (GUI) was written in Python and developed using Visual Studio Code.
 
 ## Installation
-Before installing Speech2Text, please ensure that you have Python 3 installed on your computer. You can download the latest version of Python 3 from the official website: https://www.python.org/downloads/. Make sure python and pip are in your Windows PATH.
+Before installing Speech2Text, please ensure that you have Python 3 installed on your computer. You can download the latest version of Python 3 from the [official website](https://www.python.org/downloads/). Make sure python and pip are in your Windows PATH.
 
 To install Speech2Text, you can either clone this repository or download it as a ZIP file and extract its contents to a local directory.
 
@@ -10,7 +10,7 @@ Next, navigate to the directory where you extracted the contents of Speech2Text 
 
     pip install -r requirements.txt
 
-(Optional) If you want to convert the Python file into an executable file, you can use PyInstaller:
+(Optional) If you want to [convert the Python file into an executable file](https://datatofish.com/executable-pyinstaller/), you can use PyInstaller:
 
     pip install pyinstaller
 
@@ -35,23 +35,7 @@ The application provides the following features:
 - Calculate the Word Error Rate (WER) between the predicted and actual transcriptions.
 - Revert to the default test data folder.
 
-## Deep learning model
-The application uses a deep learning model implemented with TensorFlow and Keras to transcribe speech to text. The model, which was based on the DeepSpeech2 model, was trained on a large dataset of .wav files.
-
-The model was developed and trained in a Google Collab notebook.
-
-After training, the model was uploaded to a TensorFlow server and is served via a REST API.
-
-## Credits and Acknowledgements
-The application was created by Tomer Cicelsky.
-
-The LJ Speech Dataset, on which the model was trained - (https://keithito.com/LJ-Speech-Dataset/)
-
-The speech-to-text model based on the DeepSpeech2 model - (https://nvidia.github.io/OpenSeq2Seq/html/speech-recognition/deepspeech2.html)
-
-The Word Error Rate calculation was implemented using the jiwer library - (https://pypi.org/project/jiwer/)
-
-The following Python libraries:
+The following Python libraries are used in the GUI:
 - numpy
 - tensorflow
 - jiwer
@@ -60,3 +44,24 @@ The following Python libraries:
 - requests
 - json
 - subprocess
+
+## Deep Learning Model
+The application utilizes a deep learning model created with TensorFlow and Keras to convert speech to text. The model is based on the DeepSpeech2 architecture and was trained on a vast dataset of .wav files.
+
+The model was developed and trained in a Google Colab notebook. After the training, the model was uploaded to a TensorFlow server and is now served via a REST API.
+
+It is important to note that the installation of the deep learning model is not required since it is hosted on a remote server and accessed through the API. However, if you're interested in exploring the model further or making modifications to it, the code and instructions for training the model can be found later under "Colab Notebook".
+
+## Colab Notebook
+
+
+## External Links
+The project was created by Tomer Cicelsky.
+
+The model was trained on the [LJ Speech Dataset](https://keithito.com/LJ-Speech-Dataset/)
+
+The speech-to-text model was based on the [DeepSpeech2 model](https://nvidia.github.io/OpenSeq2Seq/html/speech-recognition/deepspeech2.html)
+
+The Word Error Rate calculation was implemented using the [jiwer library](https://pypi.org/project/jiwer/)
+
+
