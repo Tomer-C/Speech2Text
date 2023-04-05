@@ -57,12 +57,28 @@ It is important to note that the installation of the deep learning model is not 
 ## Colab Notebook
 To view the Colab Notebook used to develop and train the deep learning model, please follow these steps:
 
-Go to https://colab.research.google.com/
-Click on the "GitHub" tab
-Search for the repository containing the Speech2Text Colab Notebook (https://github.com/Tomer-C/Speech2Text)
-Select the Speech2Text_Project.ipynb file to open the Colab Notebook
-Follow the instructions in the notebook to run the code and train the model.
+- Go to https://colab.research.google.com/
+- Click on the "GitHub" tab
+- Search for the repository containing the Speech2Text Colab Notebook (https://github.com/Tomer-C/Speech2Text)
+- Select the Speech2Text_Project.ipynb file to open the Colab Notebook
+- Follow the instructions in the notebook to run the code and train the model 
+  (Set the `train` flag to **True** to indicate that we are training the model / Set the `train` flag to **False** to indicate that we are not training the model).
+
 The Colab Notebook contains the code used to preprocess the dataset, define the model architecture, train the model, and save the trained weights. The notebook also includes detailed comments and explanations to help you understand the code and the deep learning concepts used in the model.
+
+The following Python libraries are used in the Colab Notebook:
+- pandas
+- numpy
+- tensorflow
+- keras
+- layers
+- matplotlib.pyplot
+- IPython
+- display
+- jiwer
+- wer
+- datetime
+- random
 
 ## External Links
 The project was created by Tomer Cicelsky.
