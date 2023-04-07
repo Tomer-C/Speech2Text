@@ -2,7 +2,4 @@ numpy
 tensorflow
 jiwer
 keras
-csv
 requests
-json
-subprocess

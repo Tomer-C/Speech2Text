@@ -25,7 +25,7 @@ class Speech2Text:
 
         # Create Tkinter window and set properties
         self.root = Tk()
-        self.root.title("Speech2Text")
+        self.root.title("Speech To Text")
         self.root.state('zoomed')
 
 
@@ -357,3 +357,8 @@ if __name__ == "__main__":
     gui = Speech2Text()
     # Run the GUI by calling the run method of the Speech2Text instance
     gui.run()
+
+
+
+
+
