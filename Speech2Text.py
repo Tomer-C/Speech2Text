@@ -12,10 +12,10 @@ import json  # Importing the json module for working with JSON data
 from jiwer import wer  # Importing the jiwer module for calculating the word error rate
 import subprocess  # Importing the subprocess module for running system commands
 
-class AudioPlayerGUI:
+class Speech2Text:
     def __init__(self):
         """
-        Initializes the instance of the AudioPlayerGUI class with its attributes and Tkinter widgets.
+        Initializes the instance of the Speech2Text class with its attributes and Tkinter widgets.
         """
 
         # A list to store the .wav files
@@ -25,7 +25,7 @@ class AudioPlayerGUI:
 
         # Create Tkinter window and set properties
         self.root = Tk()
-        self.root.title("Speech To Text")
+        self.root.title("Speech2Text")
         self.root.state('zoomed')
 
 
@@ -353,12 +353,7 @@ class AudioPlayerGUI:
     
 
 if __name__ == "__main__":
-    # Create an instance of the AudioPlayerGUI class
-    gui = AudioPlayerGUI()
-    # Run the GUI by calling the run method of the AudioPlayerGUI instance
+    # Create an instance of the Speech2Text class
+    gui = Speech2Text()
+    # Run the GUI by calling the run method of the Speech2Text instance
     gui.run()
-
-
-
-
-
